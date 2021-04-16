@@ -1,13 +1,9 @@
 class Dinosaur:
-    def __init__(self):
-        self.type = ''
-        self.energy = 0
-        self.attack_power = 0
-        self.health = 0
-
-    def __init__(self, type, attack_power):
+    def __init__(self, type, energy, attack_power, health):
         self.type = type
+        self.energy = energy
         self.attack_power = attack_power
+        self.health = health
 
     def attack(self, robot):
         if Dinosaur.attack_power > robot.power_level:
