@@ -8,9 +8,9 @@ class Fleet:
 
     def create_fleet(self):
         #create 3 robot objects, add to list
-        self.fleet_of_robots = append(robot_one)
-        self.fleet_of_robots = append(robot_two)
-        self.fleet_of_robots = append(robot_three)
+        self.fleet_of_robots.append(robot_one)
+        self.fleet_of_robots.append(robot_two)
+        self.fleet_of_robots.append(robot_three)
 
 
 if __name__ == '__main__':

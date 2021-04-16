@@ -1,10 +1,11 @@
-
+from Herd import Herd
+from Fleet import Fleet
 
 class Field_of_battle:
     def __init__(self):
         hello = 0
         #self.fleet = Fleet()
-        #self.herd = Herd()
+        self.herd = Herd()
 
     def run_game(self):
         self.display_welcome()
@@ -14,6 +15,8 @@ class Field_of_battle:
         print("Welcome to Dinosaurs Vs. Robots!!!")
 
     def battle(self):
+        print(self.herd)
+        #print(Fleet.robot_one)
         pass
 
     def dino_turn(self, dinosaur):
