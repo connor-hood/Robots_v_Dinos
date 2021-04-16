@@ -20,7 +20,7 @@ if __name__ == '__main__':
     dino_two.health: 20
 
     dino_three = Dinosaur()
-    dino_three.type: 'Claw'
+    dino_three.type: 'Tail Whip'
     dino_three.energy: 25
     dino_three.attack_power: 15
     dino_three.health: 25

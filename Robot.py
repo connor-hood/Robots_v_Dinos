@@ -1,3 +1,5 @@
+from Weapon import Weapon
+
 class Robot:
     def __init__(self):
         self.name: ''
@@ -5,7 +7,7 @@ class Robot:
         self.health: 0
         self.weapon: Weapon()
 
-    def __int__(self,name):
+    def __init__(self,name):
         self.name = name
 
     def attack(self, dinosaur):

@@ -3,5 +3,6 @@ class Weapon:
         self.type = ''
         self.attack_power = 0
 
-    def __int__(self, attack_power):
+    def __init__(self, type, attack_power):
+        self.type = type
         self.attack_power = attack_power
