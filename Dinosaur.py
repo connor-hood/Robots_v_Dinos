@@ -6,8 +6,10 @@ class Dinosaur:
         self.health = health
 
     def attack(self, robot):
-        if Dinosaur.attack_power > robot.power_level:
-            damage_taken = robot.health - Dinosaur.attack_power
+        if self.attack_power > robot.power_level:
+            damage_taken = robot.health - self.attack_power
             robot.health -= damage_taken
+            health_display = str(robot.health)
+            print("the robot's health is at" + health_display)
         else:
             print("you did not make a successful attack")

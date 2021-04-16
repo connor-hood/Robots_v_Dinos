@@ -9,7 +9,7 @@ class Robot:
         self.weapon: Weapon()
 
     def attack(self, dinosaur):
-        if Robot.power_level > dinosaur.energy:
+        if self.power_level > dinosaur.energy:
             damage_taken = dinosaur.health - Weapon.attack.power
             dinosaur.health -= damage_taken
         else:
