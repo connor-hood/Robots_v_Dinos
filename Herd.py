@@ -2,9 +2,12 @@ from Dinosaur import Dinosaur
 
 class Herd:
     def __init__(self):
-        self.dinosaurs: List
+        self.herd_of_dinosaurs: []
 
     def create_herd(self):
+        self.herd_of_dinosaurs = append(dino_one)
+        self.herd_of_dinosaurs = append(dino_two)
+        self.herd_of_dinosaurs = append(dino_three)
 
 if __name__ == '__main__':
     dino_one = Dinosaur()
