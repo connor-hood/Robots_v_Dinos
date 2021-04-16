@@ -1,9 +1,10 @@
-class Battlefield:
+class Field_of_battle:
     def __init__(self):
         self.fleet = Fleet()
         self.herd = Herd()
 
     def run_game(self):
+        print("Welcome to Robots Vs. Dinosaurs!!!")
 
     def display_welcome(self):
 
