@@ -12,5 +12,7 @@ class Robot:
         if self.power_level > dinosaur.energy:
             damage_taken = dinosaur.health - Weapon.attack.power
             dinosaur.health -= damage_taken
+            health_display = str(dinosaur.health)
+            print("the dinosaur's health is at" + health_display)
         else:
             print("you did not make a successful attack")
