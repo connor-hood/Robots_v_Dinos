@@ -3,9 +3,9 @@ from Weapon import Weapon
 
 class Robot:
     def __init__(self, name, power_level, health):
-        self.name = name
-        self.power_level = power_level
-        self.health = health
+        self.name = input("What would you like your robot's name to to be?")
+        self.power_level = input("What would you like " + self.name + "'s power level to be?")
+        self.health = input("What would you like " + self.name + "'s max health to be?")
         self.weapon: Weapon()
 
     def attack(self, dinosaur):

@@ -1,9 +1,9 @@
 class Dinosaur:
     def __init__(self, type, energy, attack_power, health):
         self.type = type
-        self.energy = energy
-        self.attack_power = attack_power
-        self.health = health
+        self.energy = input('What would you like your dino defense power to be?')
+        self.attack_power = input('What would you like your dino attack power to be?')
+        self.health = input('What would you like your dino max health to be?')
 
     def attack(self, robot):
         if self.attack_power > robot.power_level:
