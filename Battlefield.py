@@ -15,11 +15,11 @@ class Field_of_battle:
         print(self.herd.herd_of_dinosaurs[1].__dict__)
         print(self.herd.herd_of_dinosaurs[2].__dict__)
 
-    def run_game(self):
-        display_welcome()
-
     def display_welcome(self):
         print("Welcome to Dinosaurs Vs. Robots!!!")
+    
+    def run_game(self):
+        self.display_welcome()
 
     def dino_turn(self, dinosaur):
         self.herd.herd_of_dinosaurs[0].attack(self.fleet.fleet_of_robots[1])
